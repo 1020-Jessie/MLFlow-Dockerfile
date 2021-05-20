@@ -4,6 +4,9 @@
   * 下載docker並安裝docker
   * 在dockerhub上找到jupyter/datascience-notebook的container
   * dockerfile實作：
-  1. 創建資料夾：mkdir first-dockerfile
-  2. 進入資料夾：cd first-dockerfile
-  3. 利用vi進行編寫Dockerfile：vi Dockerfile
+    *  創建資料夾：mkdir first-dockerfile
+    *  進入資料夾：cd first-dockerfile
+    *  利用vi進行編寫Dockerfile：vi Dockerfile
+    *  jupyter/datascience-notebook作為dockerfile的base image
+    *  參考架設MLFlow：https://github.com/danielvdende/docker-mlflow
+    *  對外開啟port 5050
