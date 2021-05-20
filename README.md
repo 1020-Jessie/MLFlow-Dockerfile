@@ -10,3 +10,6 @@
     *  jupyter/datascience-notebook作為dockerfile的base image
     *  參考架設MLFlow：https://github.com/danielvdende/docker-mlflow
     *  對外開啟port 5050
+
+---
+* #### 啟動服務 ####
